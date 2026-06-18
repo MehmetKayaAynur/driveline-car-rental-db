@@ -1,0 +1,32 @@
+# Local DB credentials — copy app/config.example.py to app/config.py
+app/config.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node (used only to regenerate docs)
+node_modules/
+package.json
+package-lock.json
+
+# Build / temp artifacts
+*.pdf
+_tmp*
+_report_build/
+_ppt_build/
+
+# Non-code deliverables (report, slides, diagram, etc.) — submitted separately
+docs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor / tooling
+.claude/
+.vscode/
+.idea/
